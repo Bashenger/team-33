@@ -1,0 +1,26 @@
+# --- Frontend & UI ---
+streamlit>=1.35.0
+
+# --- Agentic Orchestration Framework ---
+langgraph>=0.0.60
+langchain-core>=0.2.5
+langchain-community>=0.2.4
+
+# --- LLM Provider & API Client ---
+groq>=0.9.0
+langchain-groq>=0.1.4
+
+# --- Embeddings & Vector Database (RAG) ---
+# Removing strict versions lets pip grab pre-compiled wheels for Python 3.13
+numpy>=2.1.0
+sentence-transformers>=3.0.1
+chromadb>=0.5.3
+faiss-cpu>=1.8.0
+unstructured>=0.14.4
+
+# --- Memory & Environment Utilities ---
+python-dotenv>=1.0.1
+pydantic>=2.7.2
+
+# --- Web Search Tool ---
+duckduckgo-search>=6.1.7
